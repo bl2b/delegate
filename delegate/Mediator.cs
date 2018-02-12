@@ -13,6 +13,7 @@ namespace LambdasActionFunct
         //static members
         private static readonly Mediator _Instance = new Mediator();
         private Mediator() { } // hide constructor
+        private string j = "joven";
 
         public static Mediator GetInstance() {
             return _Instance;
